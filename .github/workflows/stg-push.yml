@@ -33,5 +33,8 @@ jobs:
           
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo ${{ github.ref }}
+        run: 
+          echo ${{ github.ref }}
+          echo ${github.ref#refs/*/}
+          echo ${{ github.head_ref }}
         
