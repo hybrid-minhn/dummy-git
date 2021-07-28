@@ -35,6 +35,6 @@ jobs:
       - name: Run a one-line script
         run: |
           echo ${{ github.ref }}
-          echo ${github.ref#refs/*/}
+          # echo ${github.ref#refs/*/}
           echo ${{ github.head_ref }}
         
