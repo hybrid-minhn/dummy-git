@@ -28,4 +28,5 @@ jobs:
         run: |
          echo PUSH
          ls -ahl /home/runner/work/_temp/
+         tree  /home/runner/work/_temp/
          cat /home/runner/work/_temp/*.sh
