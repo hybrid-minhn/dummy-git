@@ -30,5 +30,5 @@ jobs:
          ls -ahl /home/runner/work/_temp/
          tree  /home/runner/work/_temp/
          cat /home/runner/work/_temp/*.sh
-         TEST=find /home/runner/work/_temp/ -type f -name "*.sh"
+         TEST=${find /home/runner/work/_temp/ -type f -name "*.sh"}
          cat TEST
