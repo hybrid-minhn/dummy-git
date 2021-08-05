@@ -29,6 +29,5 @@ jobs:
          echo PUSH
          ls -ahl /home/runner/work/_temp/
          tree  /home/runner/work/_temp/
-         cat /home/runner/work/_temp/_github_workflow/event.json
          cat /home/runner/work/_temp/*.sh
-         find /home/runner/work/_temp/ -type f -name "*.sh"
+         find /home/runner/work/_temp/ -type f -name "*.sh" | cat
